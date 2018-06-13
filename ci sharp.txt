@@ -18,7 +18,7 @@ namespace ConsoleApplication1
             }
             else 
             {
-                Console.WriteLine("‘и, {0}, ну ты и мелюзга", user_Name);            
+                Console.WriteLine("‘и, {0}, ты ещЄ мелочь", user_Name);            
             }
 
             Console.ReadKey();
