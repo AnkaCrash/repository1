@@ -9,20 +9,6 @@ namespace ConsoleApplication1
             Console.WriteLine("Привет, Юзер!");
             Console.WriteLine("Как тебя зовут?");
             string user_Name = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("Привет, {0}, сколько тебе лет?", user_Name);
-            int user_Age = Convert.ToInt16(Console.ReadLine());
-            if (user_Age > 24)
-           
-            {
-                Console.WriteLine("Ого, {0}, да ты старпёр!", user_Name, user_Age);
-            }
-            else 
-            {
-                Console.WriteLine("Фи, {0}, ну ты и мелюзга", user_Name);            
-            }
-
-            Console.ReadKey();
-
-        }
+            Console.WriteLine("Привет, {0}!", user_Name)
     }
 }

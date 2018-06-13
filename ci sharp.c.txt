@@ -20,7 +20,9 @@ namespace ConsoleApplication1
             {
                 Console.WriteLine("Фи, {0}, ну ты и мелюзга", user_Name);            
             }
-
+            Console.WriteLine("Я умею считать. Загадай любое положительное целое число, меньшее 100: ");
+            int count_User = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Куб числа: {0}", Math.Pow(count_User,3));
             Console.ReadKey();
 
         }
